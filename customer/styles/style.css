@@ -1,0 +1,33 @@
+*{margin:0px ; padding:0px}
+body{background-color:skyblue}
+#wrapper{width:1000px ; height:auto; margin:auto ;background-color:black;}
+header{ width:1000px ; height:200px; margin:auto}
+nav{width:1000px ; height:40px; background-color:gray;color:white}
+nav ul{ padding:0px ; margin:0px ;float:left ;line-height:40px}
+nav ul li{list-style:none; display:inline-block}
+nav ul li a{color:white; text-decoration:none; padding:8px ; margin:5px; font-size:18px ; font-family:arial}
+nav ul li a:hover{color:orange; text-decoration:underline; }
+#form{ float:right; padding-right:8px; line-height:40px}
+
+
+aside{width:200px ; height:auto; float:left ; background-color:black}
+aside h1{ background-color:white;color:black; font-size:22px ; font-family:arial;padding:10px; text-align:center}
+aside ul{ text-align:center;list-style:none;}
+aside ul li { margin:5px; }
+aside ul li a{color:white; text-decoration:none; padding:8px ; margin:5px; font-size:20px ; font-family:arial}
+aside ul li a:hover{color:orange; text-decoration:underline; font-weight:bold}
+
+
+
+
+section{width:800px ; margin:auto ; background-color:pink;float:right ;}
+#products{width:780px;text-align:center;margin-left:10px;margin-bottom:10px;}
+#single_product{float:left;margin-left:20px;padding:10px;}
+#single_product img{border:2px solid black;}
+#shopping_cart{width: 800px;height: 50px;background-color: black;color: white}
+
+
+
+
+footer{width:1000px ; height:100px; clear:both; background-color:gray}
+footer h2{ text-align:center; padding:10px} 

@@ -1,0 +1,37 @@
+*{margin:0px ; padding:0px}
+body{background-color:skyblue}
+.main_wrapper{
+    width: 1000px;height: auto;margin: auto;}
+#header{
+    width: 1000px;height: 120px;
+    background-image:url(../images/1.png);
+    border-bottom: 5px groove orange; 
+}
+#left{
+    width: 795px;
+    height: 600px;
+    
+    float: left;
+}
+#right{
+    width: 200px;
+    height: 600px;
+    float:right;
+    border-left: 5px groove orange;
+    background: #187eae;
+   
+}
+#right a{
+     display: block;
+    text-align: left;
+    text-decoration-line: none;
+    color: aliceblue;
+    text-decoration-style: double;
+    font-size: 20px;
+    
+  padding: 6px;
+    margin: 6px
+}
+#right a:hover{
+    text-decoration: underline;color: darkorange
+}
